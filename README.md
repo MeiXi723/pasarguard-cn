@@ -1,12 +1,17 @@
-# PasarGuard 中文安装器
+<div align="center">
 
-> 官方 [PasarGuard/scripts](https://github.com/PasarGuard/scripts) 的中文安全加固外壳。
->
-> 不重复造轮子 —— 面板和节点的核心安装**仍然走官方脚本**（所以你永远能拿到上游的更新和修复），
-> 本仓库只补官方没做的五件事。
+# pasarguard-cn
 
-[![Debian](https://img.shields.io/badge/Debian-11%20%7C%2012%20%7C%2013-A80030?logo=debian)](https://www.debian.org/)
-[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20%7C%2022.04%20%7C%2024.04-E95420?logo=ubuntu)](https://ubuntu.com/)
+**PasarGuard 官方安装脚本的中文安全加固外壳**
+
+[![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![Debian](https://img.shields.io/badge/Debian-11%20%7C%2012%20%7C%2013-A80030?style=flat-square&logo=debian&logoColor=white)](https://www.debian.org/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20%7C%2022.04%20%7C%2024.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+
+不重复造轮子 —— 核心安装仍然走官方脚本，这里只补官方没做的五件事
+
+</div>
 
 ---
 
