@@ -1,0 +1,31 @@
+# 部署产物 —— 绝不入库
+.env
+*.env
+config.env
+
+# 证书与私钥
+*.pem
+*.key
+*.crt
+*.p12
+
+# 备份与导出
+*.sql
+*.tar.gz
+backup-*
+*.zip
+
+# 上游脚本缓存（运行时下载到 /opt/pg-cn，若有人误拷进仓）
+pasarguard-official.sh
+pg-node-official.sh
+upstream/
+
+# 日志
+*.log
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
