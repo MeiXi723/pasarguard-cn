@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📖 官方文档
+    url: https://docs.pasarguard.org/
+    about: 面板功能、套餐、订阅、节点配置——这些是 PasarGuard 本体的问题，官方文档更权威
+
+  - name: 🔧 官方脚本仓库
+    url: https://github.com/PasarGuard/scripts
+    about: 如果你用的是官方脚本出的问题，去这里提
+
+  - name: 💬 使用问题 / 闲聊
+    url: https://github.com/MeiXi723/pasarguard-cn/discussions
+    about: "「怎么用」「推荐什么服务器」这类不是 bug 的问题，发到 Discussions（需先开启）"

@@ -1,0 +1,74 @@
+name: 💡 功能建议
+description: 想让脚本多做点什么，或者做得更好
+title: "[建议] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **先说清楚一件事**：这个项目的定位是「官方脚本的中文安全加固外壳」，
+        不是重写 PasarGuard。所以有些建议我会说"这个应该去官方提"。
+
+        提之前看一眼 README 的「[来源与定位](https://github.com/MeiXi723/pasarguard-cn#来源与定位)」，
+        能省一轮来回。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 建议类型
+      options:
+        - 中文交互 / 提示文案改进
+        - 安全加固项（默认更安全）
+        - 国内网络环境适配
+        - 部署流程简化
+        - 新增检测 / 自检项
+        - 文档改进
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你遇到的是什么问题
+      description: |
+        **先描述问题，别急着给方案。**
+
+        "我希望有个 --xxx 参数" 不如说
+        "我在 XX 场景下要手动做 N 步，每次装机器都要重复一次"。
+      placeholder: |
+        我一次要开 5 台机器，现在得一台台跑交互式安装，
+        想批量部署但不知道有没有办法。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你设想怎么解决
+      description: 有想法就写，没有就跳过
+      placeholder: |
+        能不能加个 --yes 直接把所有参数走默认值？
+        （注：这个已经有，见 README 快速开始）
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternative
+    attributes:
+      label: 你现在怎么绕过去的
+      description: 临时办法也算，能说明问题真实存在
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 你觉得这属于哪一层
+      description: 判断错了没关系，我会在回复里说明
+      options:
+        - 封装层能解决（脚本自己改就行）
+        - 需要改 PasarGuard 本体（那得去官方提）
+        - 不确定
+    validations:
+      required: true
