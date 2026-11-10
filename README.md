@@ -9,9 +9,28 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20%7C%2022.04%20%7C%2024.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
+**中文** | [English](README.en.md)
+
 不重复造轮子 —— 核心安装仍然走官方脚本，这里只补官方没做的五件事
 
 </div>
+
+---
+
+## 实际跑起来长这样
+
+**装完的验收结果**（六项全过）：
+
+![验收结果](docs/screenshots/03-accept.png)
+
+**安装过程**：环境检查 → 镜像测速优选 → 幂等检测（已装则跳过，不动数据）：
+
+![安装过程](docs/screenshots/02-install.png)
+
+**命令行参数**：
+
+![帮助输出](docs/screenshots/01-help.png)
+
 
 ---
 
